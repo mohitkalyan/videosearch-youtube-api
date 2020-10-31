@@ -1,0 +1,27 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.top{
+    margin-top: 2rem;
+}
+
+.bottom{
+    margin-bottom: 2rem;
+}
+
+.onclick{
+    cursor: pointer;
+}
+
+.width{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
