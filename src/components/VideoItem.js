@@ -4,7 +4,7 @@ import "./search.css"
 
 const VideoItem = ({ video, onVideoSelect })=>{
     return(
-        <div onClick={()=>{return onVideoSelect(video)}} classname="" >
+        <div onClick={()=>{return onVideoSelect(video)}} >
             <img className="ui image onclick" src={video.snippet.thumbnails.medium.url} alt="foo" />
             <div className="content onclick">
                 <div className="header">

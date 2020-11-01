@@ -20,7 +20,7 @@ class Search extends React.Component {
         <form onSubmit={this.onSearchSubmit} >
         <div className="ui action input">
           <input value={this.state.search} type="text" onChange={this.onSearchChange} placeholder="Search..." />
-          <button class="ui button">Search</button>
+          <button className="ui button">Search</button>
         </div>
         </form>
       </div>
